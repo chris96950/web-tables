@@ -1,0 +1,107 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    border-collapse:separate;
+    width:100%;
+    table-layout:auto;
+    
+    }
+
+
+div.schedule-container{
+    background-color: lightyellow;
+    padding:20px;
+    border: 5px solid rgb(29, 6, 6);
+}
+table.schedule {
+    border: 5px solid black;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+table.schedule td, th {
+    border: 1px solid black;
+    padding: 5px;
+    word-wrap:break-word; 
+    word-break:break-all;
+    }
+
+    thead {
+        background-color:blueviolet;
+        color: white;
+    }
+tfoot {
+    background-color: black;
+    color: white;
+}
+
+table.schedule tfoot{
+    background-color: rgb(17, 11, 11);
+    color:white;
+    font-size: 15px;
+
+}
+
+td.spanned {
+    background-color: rgb(231, 130, 90);
+    text-align:center; 
+}
+
+table.schedule tr td:nth-child(1)  {
+    text-align: right;
+    font-weight: bold;
+    background-color: slategray;
+}
+
+table tbody> tr:nth-child(even){
+background-color: lightgray;
+}
+
+table tbody> tr:nth-child(odd){
+    background-color: lightblue;
+
+}
+
+table tbody> tr:hover{
+    background-color: aqua;
+    font-style:italic;
+}
+
+table.caption {
+    text-align: right;
+    caption-side: bottom;
+
+}
+col#dayofweek {
+    background-color: slategray;
+    width: 16%;
+    
+}
+
+col.hoursofday {
+    background-color: white;
+    width: 26%;
+}
+
+dl{
+    display: table;
+    border-collapse: collapse;
+    width: 300px;
+}
+
+dl div{
+    display:table-row;
+}
+dt, dd {
+    display: table-cell;
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 5px;
+}
+
+article{
+    column-count: 3;
+}
